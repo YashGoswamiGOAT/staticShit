@@ -1,0 +1,39 @@
+.music
+{
+    background: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    transition: background 0.1s;
+}
+.music:active
+{
+    background: grey;
+}
+.image
+{
+    height: 5rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+}
+.ctrl
+{
+ display: grid;
+    padding: 2rem;
+}
+.play
+{
+
+}
+.pause
+{
+
+}
+.range
+{
+
+}
